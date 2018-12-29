@@ -1,0 +1,19 @@
+.fontchange{
+    font-family: Microsoft JhengHei;
+}
+
+.bg-gray{
+    background-color: #dcdcdc;
+}
+
+.quarterBar{
+    width: 25%;
+}
+
+.twoQuartersBar{
+    width: 50%;
+}
+
+.threeQuartersBar{
+    width: 75%;
+}

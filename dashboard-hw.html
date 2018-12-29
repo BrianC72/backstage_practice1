@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>後臺</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">商務控制後台</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">列表</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container-fluid mt-4 fontchange">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="far fa-money-bill-alt fa-2x mr-5"></div>
+                        <div class="text-center">
+                            <p class="h5">今日營收</p>
+                            <p class="h5">192,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="far fa-user fa-2x mr-5"></div>
+                        <div class="text-center">
+                            <p class="h5">會員增加</p>
+                            <p class="h3">172</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="fas fa-dollar-sign fa-2x mr-5"></div>
+                        <div class="text-center">
+                            <p class="h5">訂單數</p>
+                            <p class="h3">320</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="fas fa-box-open fa-2x mr-5"></div>
+                        <div class="text-center">
+                            <p class="h5">待出貨數</p>
+                            <p class="h3">120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid fontchange mt-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body p-5">
+                        <p class="h5 text-center mt-5">目前線上人數</p>
+                        <p class="display-3 text-center mt-2">99</p>
+                        <div class="progress mt-4">
+                            <div class="progress-bar text-white quarterBar" role="progressbar"  aria-valuenow="15"
+                                aria-valuemin="0" aria-valuemax="100">桌機</div>
+                            <div class="progress-bar bg-info text-white threeQuartersBar" role="progressbar" 
+                                aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">行動裝置</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-head bg-gray px-3 py-1">新進訂單</div>
+                    <div class="card-body">
+                        <div class="row d-flex justify-content-end">
+                            <a class="btn btn-outline-secondary btn-sm mr-4 mb-4" href="#" role="button">訂單管理</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table class="table table-responsive-sm">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">來源</th>
+                                            <th scope="col">姓名</th>
+                                            <th scope="col">貨品</th>
+                                            <th scope="col" class="text-center" width="10%">價格</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Youtube</td>
+                                            <td>小五郎</td>
+                                            <td>牛排</td>
+                                            <td class="text-right">400</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Amazon</td>
+                                            <td>王大明</td>
+                                            <td>豬排</td>
+                                            <td class="text-right">270</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Shopee</td>
+                                            <td>林小美</td>
+                                            <td>雞排</td>
+                                            <td class="text-right">220</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <td scope="row" colspan="3" class="text-right">總計</td>
+                                        <td class="text-right">890</td>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid mt-4 fontchange">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-head bg-gray px-3 py-1">用戶來源</div>
+                    <div class="card-body"></div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <canvas id="barCanvas"></canvas>
+                        </div>
+                        <div class="col-lg-4 px-4">
+                            <p class="h5"><strong>Details</strong></p>
+                            <p style="font-size: 13px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                                atque excepturi
+                                necessitatibus. Vel nostrum voluptate minima, perspiciatis corrupti rerum tenetur.</p>
+                            <p class="mb-1"><strong>Google</strong>來源</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar quarterBar" role="progressbar" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-1"><strong>Facebook</strong>來源</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar twoQuartersBar" role="progressbar"  aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-1">無法追蹤</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info twoQuartersBar" role="progressbar"  aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-head bg-gray px-3 py-1">瀏覽器</div>
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9">
+                                <canvas class="chart-item"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid fontchange mt-4">
+        <div class="card">
+            <div class="card-head bg-gray px-3 py-1">月營運狀態</div>
+            <div class="card-body">
+                <div class="d-flex mb-2">
+                    <div class="form-inline">
+                        <div class="form-group">
+                            <label for="month" class="sr-only">月份</label>
+                            <select name="" id="month" class="form-control">
+                                <option value="9">9月</option>
+                                <option value="10">10月</option>
+                                <option value="11">11月</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">下載報表</a>
+                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">訂單管理</a>
+                    </div>
+                </div>
+                <table class="table table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">日期</th>
+                            <th scope="col">訂單數</th>
+                            <th scope="col">退費數</th>
+                            <th scope="col">出貨數</th>
+                            <th scope="col">有問題貨品</th>
+                            <th scope="col" class="text-center">營業額</th>
+                            <th scope="col" class="text-center">淨利潤</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">9/1</td>
+                            <td>56</td>
+                            <td>2</td>
+                            <td>96</td>
+                            <td>2</td>
+                            <td class="text-right">156,000</td>
+                            <td class="text-right">400</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">9/2</td>
+                            <td>72</td>
+                            <td>3</td>
+                            <td>150</td>
+                            <td>6</td>
+                            <td class="text-right">178,000</td>
+                            <td class="text-right">400</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">9/3</td>
+                            <td>67</td>
+                            <td>2</td>
+                            <td>165</td>
+                            <td>3</td>
+                            <td class="text-right">185,000</td>
+                            <td class="text-right">400</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">9/4</td>
+                            <td>81</td>
+                            <td>4</td>
+                            <td>194</td>
+                            <td>7</td>
+                            <td class="text-right">202,000</td>
+                            <td class="text-right">400</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="6" class="text-right">月總營收</td>
+                            <td class="text-right">1000</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="text-right">月總淨利潤</td>
+                            <td class="text-right">1000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid mt-4 fontchange">
+        <div class="row justify-content-between">
+            <div class="col-lg-3">
+                <div class="input-group input-group-sm mb-3">
+                    <input type="search" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="submit">Go</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-backdrop="static"
+                    data-title="快速下單" data-target="#editModal">
+                    快速下單</button>
+            </div>
+        </div>
+        <table class="table table-responsive-sm">
+            <thead>
+                <tr>
+                    <th scope="col" width="3%">#</th>
+                    <th scope="col" width="40%">品項</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" width="10%">Email</th>
+                    <th scope="col" width="10%">狀態</th>
+                    <th scope="col">金額</th>
+                    <th scope="col" width="15%" class="text-center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td class="text-primary">握力器</td>
+                    <td>Mark<span class="badge badge-danger ml-1">奧客</span></td>
+                    <td>Mark@gmail.com</td>
+                    <td>已出貨</td>
+                    <td>450</td>
+                    <td class="d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal"
+                                data-title="編輯 超纖細肥皂 1盒" data-target="#editModal">編輯</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">查看</button>
+
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop-soap" type="button" class="btn btn-outline-secondary dropdown-toggle btn-sm"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    其他
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop-soap">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" data-toggle="modal" data-title="刪除 超鮮肥皂盒 1盒" data-target="#removeModal"
+                                        href="#">刪除</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td class="text-primary">蛋白奶昔(盒裝)</td>
+                    <td>Thornton<span class="badge badge-success ml-1">常客</span></td>
+                    <td>Thornton@gmail.com</td>
+                    <td class="text-danger">缺貨</td>
+                    <td>1599</td>
+                    <td class="d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal"
+                                data-title="編輯 無泡泡沐浴乳 5罐" data-target="#editModal">編輯</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">查看</button>
+
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop-shampoo" type="button" class="btn btn-outline-secondary dropdown-toggle btn-sm"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    其他
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop-shampoo">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" href="#">刪除</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td class="text-primary">蛋白奶昔(桶裝)</td>
+                    <td>Larry</td>
+                    <td>Larry@gmail.com</td>
+                    <td>已出貨</td>
+                    <td>720</td>
+                    <td class="d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal"
+                                data-title="編輯 防滑燈罩 10個" data-target="#editModal">編輯</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">查看</button>
+
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop-lid" type="button" class="btn btn-outline-secondary dropdown-toggle btn-sm"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    其他
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop-lid">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" href="#">刪除</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Modal edit-->
+    <div class="modal fade fontchange" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="edit-customername">姓名</label>
+                            <input type="text" class="form-control" id="edit-customername" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-customeremail">信箱</label>
+                            <input type="email" class="form-control" id="edit-customeremail" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-9">
+                                    <label for="edit-itemname">品項</label>
+                                    <input type="text" class="form-control" id="edit-itemname">
+                                </div>
+                                <div class="col-3">
+                                    <label for="edit-itemqty">數量</label>
+                                    <input type="number" class="form-control" id="edit-itemqty">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary">確認送出</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal remove-->
+    <div class="modal fade fontchange" id="removeModal" tabindex="-1" role="dialog" aria-labelledby="removeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="removeModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="remove-customername">姓名</label>
+                            <input type="text" class="form-control" id="remove-customername" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="remove-customeremail">信箱</label>
+                            <input type="email" class="form-control" id="remove-customeremail" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-9">
+                                    <label for="remove-itemname">品項</label>
+                                    <input type="text" class="form-control" id="remove-itemname">
+                                </div>
+                                <div class="col-3">
+                                    <label for="remove-itemqty">數量</label>
+                                    <input type="number" class="form-control" id="remove-itemqty">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary">確認送出</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
